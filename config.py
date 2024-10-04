@@ -2,7 +2,7 @@ import os
 
 class Config(object):
     SECRET_KEY = os.getenv("SECRET_KEY", "your_secret_key")
-    MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/yourdbname")
+    MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://tombrain1011:icdO8YDs9E8HOoBJ@cluster0.uso4lqs.mongodb.net/Emily?retryWrites=true&w=majority&appName=Cluster0")
     MAIL_USERNAME = os.getenv("MAIL_USERNAME")
     MAIL_PASSWORD = os.getenv("MAIL_PASSWORD")
     MAIL_DEFAULT_SENDER = "noreply@flask.com"
